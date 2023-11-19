@@ -829,8 +829,7 @@ local function lumbsmasher_legitpaint(wood_class, blueprint, tpback)
 
     if wood_class == "LoneCave" then
         if tool.ToolName.Value ~= "EndTimesAxe" then
-            notify("刺客
-            ", "请你装备末日斧头", 4)
+            notify("刺客", "请你装备末日斧头", 4)
             return
         end
     end
